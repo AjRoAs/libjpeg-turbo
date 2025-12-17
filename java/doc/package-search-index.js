@@ -1,1 +1,4 @@
-packageSearchIndex = [{"l":"All Packages","url":"allpackages-index.html"},{"l":"org.libjpegturbo.turbojpeg"}]
+packageSearchIndex = [
+    { l: "All Packages", url: "allpackages-index.html" },
+    { l: "org.libjpegturbo.turbojpeg" },
+];

@@ -1,8 +1,7 @@
 ---
 name: Feature Request
 about: Suggest new libjpeg-turbo functionality
-title: ''
+title: ""
 labels: enhancement
 assignees: dcommander
-
 ---

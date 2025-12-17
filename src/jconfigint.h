@@ -8,7 +8,7 @@
 #undef RIGHT_SHIFT_IS_UNSIGNED
 
 #ifndef FALLTHROUGH
-#define FALLTHROUGH ((void)0)
+#define FALLTHROUGH
 #endif
 
 #ifndef THREAD_LOCAL

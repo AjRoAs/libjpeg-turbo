@@ -2,6 +2,7 @@
 
 #define JPEG_LIB_VERSION 80
 #define LIBJPEG_TURBO_VERSION 3.0.0
+#define PACKAGE_NAME "libjpeg-turbo"
 
 #define BITS_IN_JSAMPLE 8
 #undef WITH_SIMD

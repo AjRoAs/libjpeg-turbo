@@ -7,7 +7,9 @@
 #define VERSION "3.1.0"
 #define SIZEOF_SIZE_T 4
 #define FALLTHROUGH
+#ifndef BITS_IN_JSAMPLE
 #define BITS_IN_JSAMPLE 8
+#endif
 #define C_ARITH_CODING_SUPPORTED 1
 #define D_ARITH_CODING_SUPPORTED 1
 /* #undef WITH_SIMD */

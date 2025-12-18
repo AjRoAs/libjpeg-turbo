@@ -25,7 +25,9 @@
 #define LIBJPEG_TURBO_VERSION 3.0.0
 #define PACKAGE_NAME "libjpeg-turbo"
 
+#ifndef BITS_IN_JSAMPLE
 #define BITS_IN_JSAMPLE 8
+#endif
 #undef WITH_SIMD
 #define HAVE_LOCALE_H 1
 #define HAVE_STDDEF_H 1

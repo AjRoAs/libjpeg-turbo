@@ -769,7 +769,7 @@
 
                 // Support: Android<4.0
                 // Detect silently failing push.apply
-                // eslint-disable-next-line no-unused-expressions
+                 
                 arr[preferredDoc.childNodes.length].nodeType;
             } catch (e) {
                 push = {
@@ -1211,7 +1211,7 @@
                 // Support: IE 11+, Edge 17 - 18+
                 // IE/Edge sometimes throw a "Permission denied" error when strict-comparing
                 // two documents; shallow comparisons work.
-                // eslint-disable-next-line eqeqeq
+                 
                 if (
                     doc == document ||
                     doc.nodeType !== 9 ||
@@ -1230,7 +1230,7 @@
                 // Support: IE 11+, Edge 17 - 18+
                 // IE/Edge sometimes throw a "Permission denied" error when strict-comparing
                 // two documents; shallow comparisons work.
-                // eslint-disable-next-line eqeqeq
+                 
                 if (
                     preferredDoc != document &&
                     (subWindow = document.defaultView) &&
@@ -1644,7 +1644,7 @@
                           // Support: IE 11+, Edge 17 - 18+
                           // IE/Edge sometimes throw a "Permission denied" error when strict-comparing
                           // two documents; shallow comparisons work.
-                          // eslint-disable-next-line eqeqeq
+                           
                           compare =
                               (a.ownerDocument || a) == (b.ownerDocument || b)
                                   ? a.compareDocumentPosition(b)
@@ -1661,7 +1661,7 @@
                               // Support: IE 11+, Edge 17 - 18+
                               // IE/Edge sometimes throw a "Permission denied" error when strict-comparing
                               // two documents; shallow comparisons work.
-                              // eslint-disable-next-line eqeqeq
+                               
                               if (
                                   a == document ||
                                   (a.ownerDocument == preferredDoc &&
@@ -1673,7 +1673,7 @@
                               // Support: IE 11+, Edge 17 - 18+
                               // IE/Edge sometimes throw a "Permission denied" error when strict-comparing
                               // two documents; shallow comparisons work.
-                              // eslint-disable-next-line eqeqeq
+                               
                               if (
                                   b == document ||
                                   (b.ownerDocument == preferredDoc &&
@@ -1710,12 +1710,12 @@
                               // Support: IE 11+, Edge 17 - 18+
                               // IE/Edge sometimes throw a "Permission denied" error when strict-comparing
                               // two documents; shallow comparisons work.
-                              /* eslint-disable eqeqeq */
+                               
                               return a == document
                                   ? -1
                                   : b == document
                                     ? 1
-                                    : /* eslint-enable eqeqeq */
+                                    :  
                                       aup
                                       ? -1
                                       : bup
@@ -1752,12 +1752,12 @@
                                 // Support: IE 11+, Edge 17 - 18+
                                 // IE/Edge sometimes throw a "Permission denied" error when strict-comparing
                                 // two documents; shallow comparisons work.
-                                /* eslint-disable eqeqeq */
+                                 
                                 ap[i] == preferredDoc
                                 ? -1
                                 : bp[i] == preferredDoc
                                   ? 1
-                                  : /* eslint-enable eqeqeq */
+                                  :  
                                     0;
                       };
 
@@ -1804,7 +1804,7 @@
                 // Support: IE 11+, Edge 17 - 18+
                 // IE/Edge sometimes throw a "Permission denied" error when strict-comparing
                 // two documents; shallow comparisons work.
-                // eslint-disable-next-line eqeqeq
+                 
                 if ((context.ownerDocument || context) != document) {
                     setDocument(context);
                 }
@@ -1816,7 +1816,7 @@
                 // Support: IE 11+, Edge 17 - 18+
                 // IE/Edge sometimes throw a "Permission denied" error when strict-comparing
                 // two documents; shallow comparisons work.
-                // eslint-disable-next-line eqeqeq
+                 
                 if ((elem.ownerDocument || elem) != document) {
                     setDocument(elem);
                 }
@@ -2091,7 +2091,7 @@
 
                             result += "";
 
-                            /* eslint-disable max-len */
+                             
 
                             return operator === "="
                                 ? result === check
@@ -2121,7 +2121,7 @@
                                               ) ===
                                                   check + "-"
                                             : false;
-                            /* eslint-enable max-len */
+                             
                         };
                     },
 
@@ -2487,7 +2487,7 @@
                         // Accessing this property makes selected-by-default
                         // options in Safari work properly
                         if (elem.parentNode) {
-                            // eslint-disable-next-line no-unused-expressions
+                             
                             elem.parentNode.selectedIndex;
                         }
 
@@ -3078,7 +3078,7 @@
                             // Support: IE 11+, Edge 17 - 18+
                             // IE/Edge sometimes throw a "Permission denied" error when strict-comparing
                             // two documents; shallow comparisons work.
-                            // eslint-disable-next-line eqeqeq
+                             
                             outermostContext =
                                 context == document || context || outermost;
                         }
@@ -3093,7 +3093,7 @@
                                 // Support: IE 11+, Edge 17 - 18+
                                 // IE/Edge sometimes throw a "Permission denied" error when strict-comparing
                                 // two documents; shallow comparisons work.
-                                // eslint-disable-next-line eqeqeq
+                                 
                                 if (
                                     !context &&
                                     elem.ownerDocument != document
@@ -8199,10 +8199,10 @@
                     showHide([elem], true);
                 }
 
-                /* eslint-disable no-loop-func */
+                 
 
                 anim.done(function () {
-                    /* eslint-enable no-loop-func */
+                     
 
                     // The final step of a "hide" animation is actually hiding the element
                     if (!hidden) {
@@ -9375,7 +9375,7 @@
                     while (i--) {
                         option = options[i];
 
-                        /* eslint-disable no-cond-assign */
+                         
 
                         if (
                             (option.selected =
@@ -9387,7 +9387,7 @@
                             optionSet = true;
                         }
 
-                        /* eslint-enable no-cond-assign */
+                         
                     }
 
                     // Force browsers to behave consistently when non-matching value is set
